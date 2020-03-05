@@ -1,4 +1,4 @@
-function [UN1,V] = StructureTexture(I,lambda)
+function [UN1,V] = StructureTexture(I, lambda)
 
 [nx,ny] = size(I); normGradI = I;
 %% parametry algorytmu
